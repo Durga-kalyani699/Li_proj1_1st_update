@@ -117,24 +117,3 @@ void execute_external_cmd(char* commands[])
     
 }
 
-// clear the terminal (using system call impliment clear)
-
-// extract external commands
-
-// print prompt string (minishell$:)
-
-// read an input string from the user
-
-// check the input string contains "PS1="  (using strncmp)
-      // if yes
-        // check for spaces in string
-        // YES (invalid)
-           //print invalid input and start again 
-        // NO
-           // check for string after PS1=
-              // No string  --> print error and start again
-              // Yes   -->
-
-      // if no
-
-    // PS1 is the prompt string using this we can print the prompt repeatedly by giving PS1=promt  (no spaces)
